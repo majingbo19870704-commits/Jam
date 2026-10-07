@@ -1,0 +1,49 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Tauri
+src-tauri/target/
+src-tauri/gen/
+
+# Local SQLite runtime data
+*.db
+*.db-shm
+*.db-wal
+
+# Tauri updater signing material (never commit the private key)
+.tauri/
+*.key
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Testing
+coverage/
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Personal Workstation runtime data
+data/
+backups/

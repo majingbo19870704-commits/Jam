@@ -1,0 +1,16 @@
+# Keep source files consistent across Windows and other development environments.
+* text=auto
+
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.json text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.rs text eol=lf
+*.sql text eol=lf
+*.sh text eol=lf
+
+*.cmd text eol=crlf
+*.bat text eol=crlf
